@@ -1,0 +1,48 @@
+export const courses = [
+  {
+    id: 1,
+    name: "AI 자동화",
+    description: "반복 업무를 AI로 자동화하는 실전 노하우",
+    price: 35000,
+    seat: 8,
+    booked: 8,
+    date: "2026-11-15",
+    tags: ["초보 환영", "2시간"],
+    emoji: "🤖",
+  },
+  {
+    id: 2,
+    name: "숏폼 편집",
+    description: "릴스·쇼츠·틱톡 바이럴 영상 편집 완성",
+    price: 45000,
+    seat: 6,
+    booked: 2,
+    date: "2026-11-18",
+    tags: ["캡컷", "3시간"],
+    emoji: "🎬",
+  },
+  {
+    id: 3,
+    name: "엑셀 실무",
+    description: "현업에서 바로 쓰는 엑셀 함수·피벗 마스터",
+    price: 30000,
+    seat: 10,
+    booked: 7,
+    date: "2026-11-22",
+    tags: ["함수 실습"],
+    emoji: "📊",
+  },
+  {
+    id: 4,
+    name: "스마트스토어",
+    description: "월 매출을 만드는 스마트스토어 개설 및 마케팅",
+    price: 40000,
+    seat: 6,
+    booked: 5,
+    date: "2026-11-28",
+    tags: ["상세페이지", "창업 준비"],
+    emoji: "🛍️",
+  },
+];
+
+export default courses;
